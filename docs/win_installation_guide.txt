@@ -1,6 +1,17 @@
 
 ## Setup
 
+**Python Version**
+
+Make sure to install Python version 3.10.5 or later (the latest version is recommended).
+
+**Visual C++ Build tools dependency when Installing `chroma hnswlib`**
+
+If you encounter installation issues where `chroma hnswlib` fails to install due to an unavailable Visual C++ Build Tools version 14 or higher, follow these steps:
+
+1. Install Visual C++ Build Tools from here (https://visualstudio.microsoft.com/visual-cpp-build-tools/).
+2. Select "Desktop Development using C++" and install all the default components.
+
 ### General Installation Information
 
    Start here if you are experienced using Python, Docker, Environments, installing requirements, and working with a Github project.
